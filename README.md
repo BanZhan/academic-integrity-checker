@@ -1,4 +1,4 @@
-# Academic Integrity Checker / 学术诚信检查器
+# Academic Integrity Checker / 学术诚信检测器
 
 [![952a6a598a814f19a3add8645f5fbeca.png](https://i.postimg.cc/BZr2f4dj/952a6a598a814f19a3add8645f5fbeca.png)](https://postimg.cc/6Th8dJ6K)
 
