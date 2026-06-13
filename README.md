@@ -1,6 +1,6 @@
 # Academic Integrity Checker / 学术诚信检查器
 
-[![icon.jpg](https://i.postimg.cc/cHDT3Mvz/icon.jpg)](https://postimg.cc/1nqphFc0)
+[![952a6a598a814f19a3add8645f5fbeca.png](https://i.postimg.cc/BZr2f4dj/952a6a598a814f19a3add8645f5fbeca.png)](https://postimg.cc/6Th8dJ6K)
 
 ## English
 
