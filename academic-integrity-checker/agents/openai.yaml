@@ -1,0 +1,4 @@
+interface:
+  display_name: "Academic Integrity Checker"
+  short_description: "Pre-submission academic misconduct risk checks"
+  default_prompt: "Use $academic-integrity-checker to review my manuscript before journal submission."

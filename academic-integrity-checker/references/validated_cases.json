@@ -1,0 +1,107 @@
+[
+  {
+    "id": "ori-brigidi-2024-cell-2019",
+    "status": "proven_by_ORI",
+    "source": "https://ori.hhs.gov/content/case-summary-brigidi-gian-stefano",
+    "year_closed": 2024,
+    "misconduct_types": ["fabrication", "falsification", "image_manipulation", "data_manipulation"],
+    "affected_work": {
+      "title": "Genomic Decoding of Neuronal Depolarization by Stimulus-Specific NPAS4 Heterodimers",
+      "venue": "Cell",
+      "year": 2019,
+      "doi": "10.1016/j.cell.2019.09.004"
+    },
+    "evidence_summary": "ORI found knowingly or intentionally falsified/fabricated data, increased n-values with fabricated datasets, and manipulated fluorescence/confocal images across a published paper and grant materials.",
+    "checker_patterns": ["n-value inflation", "image relabeling", "selective brightness enhancement", "misrepresented microscopy channels", "raw-data traceability"]
+  },
+  {
+    "id": "ori-zhang-2025-unpublished",
+    "status": "proven_by_ORI",
+    "source": "https://ori.hhs.gov/content/case-summary-zhang-liping",
+    "year_closed": 2025,
+    "misconduct_types": ["fabrication", "falsification", "image_manipulation"],
+    "affected_work": {
+      "title": "Nucleolar protein 66 functions as a novel negative regulator of satellite cells",
+      "venue": "EMBO Reports submission",
+      "year": 2017,
+      "doi": null
+    },
+    "evidence_summary": "ORI found intentionally and knowingly falsified/fabricated western blot and microscopy images in submitted manuscripts and grant applications by manipulating, reusing, relabeling, or using unrelated images.",
+    "checker_patterns": ["western blot duplication", "microscopy reuse", "unrelated image reuse", "figure-source audit"]
+  },
+  {
+    "id": "ori-chang-2022-grant-papers",
+    "status": "proven_by_ORI",
+    "source": "https://ori.hhs.gov/content/case-summary-chang-alice-c",
+    "year_closed": 2022,
+    "misconduct_types": ["fabrication", "falsification", "data_reuse"],
+    "affected_work": {
+      "title": "Leptin-STAT3-G9a signaling promotes obesity-mediated breast cancer progression",
+      "venue": "Cancer Research",
+      "year": 2015,
+      "doi": "10.1158/0008-5472.CAN-14-3076"
+    },
+    "evidence_summary": "ORI found falsified/fabricated data in hundreds of panels across grant applications and two published papers, including reuse of data to represent unrelated experiments.",
+    "checker_patterns": ["same data reused as unrelated experiment", "large multi-panel inconsistency", "grant-to-paper traceability"]
+  },
+  {
+    "id": "ori-sudbo-2007-oral-cancer",
+    "status": "proven_by_ORI",
+    "source": "https://ori.hhs.gov/case-summary-sudbo-jon",
+    "year_closed": 2007,
+    "misconduct_types": ["fabrication", "falsification", "patient_data_fabrication"],
+    "affected_work": {
+      "title": "Oral Cancer Prevention with Molecular Targeting Therapy",
+      "venue": "NIH grant application / related publications",
+      "year": 2007,
+      "doi": null
+    },
+    "evidence_summary": "PHS found fabricated/falsified research in a grant application and progress report, including fabricated survival results and false patient-screening numbers.",
+    "checker_patterns": ["patient/sample count audit", "progress-report consistency", "fabricated cohort warning"]
+  },
+  {
+    "id": "ori-poehlman-2005-aging-obesity",
+    "status": "proven_by_ORI",
+    "source": "https://ori.hhs.gov/content/case_summary",
+    "year_closed": 2005,
+    "misconduct_types": ["fabrication", "falsification", "clinical_data_fabrication"],
+    "affected_work": {
+      "title": "Aging, energy expenditure, and obesity-related research outputs",
+      "venue": "Multiple publications/grants",
+      "year": 2005,
+      "doi": null
+    },
+    "evidence_summary": "ORI lists this older case among administrative-action case summaries; use as a validation category for clinical-data fabrication and longitudinal-data audit warnings.",
+    "checker_patterns": ["longitudinal data consistency", "clinical sample audit", "grant-publication consistency"]
+  },
+  {
+    "id": "ori-kornak-2008-clinical-trial",
+    "status": "proven_by_ORI",
+    "source": "https://ori.hhs.gov/content/case_summary",
+    "year_closed": 2008,
+    "misconduct_types": ["falsification", "clinical_trial_records"],
+    "affected_work": {
+      "title": "Clinical trial records and eligibility documentation",
+      "venue": "Clinical research records",
+      "year": 2008,
+      "doi": null
+    },
+    "evidence_summary": "ORI lists this older case among administrative-action case summaries; use as a validation category for trial record, eligibility, and consent-document audit warnings.",
+    "checker_patterns": ["trial registration", "eligibility criteria consistency", "consent documentation"]
+  },
+  {
+    "id": "retraction-watch-pattern-paper-mill-general",
+    "status": "pattern_not_individual_finding",
+    "source": "https://retractionwatch.com/",
+    "year_closed": null,
+    "misconduct_types": ["paper_mill", "peer_review_manipulation", "fake_data"],
+    "affected_work": {
+      "title": "Paper-mill pattern validation bucket",
+      "venue": "Multiple publishers",
+      "year": null,
+      "doi": null
+    },
+    "evidence_summary": "Use only as a pattern bucket, not as a named allegation: paper mills commonly involve template manuscripts, fake data/images, purchased authorship, and manipulated peer review.",
+    "checker_patterns": ["template phrasing", "generic mechanism language", "unverifiable author emails", "fake reviewer risk", "image/data/source mismatch"]
+  }
+]
